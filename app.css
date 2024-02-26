@@ -1,0 +1,13 @@
+.m_container{
+  height: 100vh;
+}
+
+.debug .m_navbar{
+  border: 1px solid black;
+}
+
+/* LAYOUT */
+
+.m_navbar{
+  height: 70px;
+}

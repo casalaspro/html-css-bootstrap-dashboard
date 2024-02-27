@@ -12,6 +12,17 @@
   height: 100%;
 }
 
+#app :is(ul, li, menu){
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#app a{
+  color: currentColor;
+  text-decoration: underline;
+}
+
 .m_app_body{
   width: 100%;
   height: calc(100% - var(--navbar-height));

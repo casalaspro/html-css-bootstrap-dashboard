@@ -14,13 +14,15 @@
 
   <div class="m_container">
     <div id="app">
-      <header class="py-3">
-        <nav class="px-2 m_navbar d-flex align-items-center gap-3">
+      <header class="">
+        <nav class="px-3 m_navbar d-flex align-items-center gap-3">
           <div class="m_navbar_logo">
-            <img src="./img/logo.svg" alt="" class="logo">
+            <a href="#"><img src="./img/logo.svg" alt="" class="m_logo_lg d-none d-lg-block"></a>
+            <a href="#"><img class="m_logo_mobile d-block d-lg-none" src="./img/mobile-logo.png" alt=""></a>
           </div>
           <div class="m-searchbar flex-grow-1">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass m_icon_lens"></i>
+            <input type="text" name="searchbar" id="searchbar" placeholder="Prova a cercare: Lezioni di Laravel">
           </div>
           <ul class="m-navbar_icons d-flex gap-3">
             <li><a href="#"><i class="fa-solid fa-list"></i></i></a></li>

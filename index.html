@@ -266,7 +266,7 @@
 
         <div class="offcanvas offcanvas-end m_off_registration" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Inserisci un nuovo Studente</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -305,22 +305,72 @@
             
               <div class="col-6">
                 <div class="mb-3">
-                  <label for="exampleFormControlInput3" class="form-label">Indirizzo Email</label>
+                  <label for="exampleFormControlInput5" class="form-label">Indirizzo Email</label>
                   <div class="input-group">
-                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <span class="input-group-text" id="exampleFormControlInput5">@</span>
                     <input type="email" class="form-control">
                   </div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="mb-3">
-                  <label for="exampleFormControlInput4" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleFormControlInput4">
+                  <label for="exampleFormControlInput6" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleFormControlInput6">
                 </div>
               </div>
-              
-            </div>
 
+              <div class="col-12">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput7" class="form-label">Indirizzo</label>
+                  <input type="name" class="form-control" id="exampleFormControlInput7">
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput8" class="form-label">Città</label>
+                  <input type="name" class="form-control" id="exampleFormControlInput8">
+                </div>
+              </div>
+
+              <div class="col-4">
+                <label for="scegliCitta"class="form-label">Città</label>
+                  <select class="form-select" id="scegliCitta">
+                    <option selected>Scegli...</option>
+                    <option value="1">Italia</option>
+                    <option value="2">Spagna</option>
+                    <option value="3">Germania</option>
+                  </select>
+              </div>
+
+              <div class="col-2">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput9" class="form-label">CAP</label>
+                  <input type="number" class="form-control" id="exampleFormControlInput9">
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="mb-3">
+                  <label for="formFile" class="form-label">Foto</label>
+                  <input class="form-control" type="file" id="formFile">
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="mb-3">
+                  <input class="me-2" type="checkbox" name="select" id="select"><span>Seleziona per proseguire</span>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="mb-3">
+                  <button type="button" class="btn btn-primary">Salva</button>
+                  <button type="button" class="btn btn-warning">Svuota</button>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
         

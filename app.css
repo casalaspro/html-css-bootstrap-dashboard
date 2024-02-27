@@ -21,7 +21,7 @@
 
 #app a{
   color: currentColor;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .m_app_body{
@@ -131,6 +131,10 @@ input#searchbar{
 
 .new-student{
   background-color: var(--new-student_color);
+}
+
+.new-student .m_bg-pill{
+  background-color: var(--pill_new-student_color);
 }
 
 @media screen and (min-width: 992px) {

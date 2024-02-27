@@ -10,7 +10,7 @@
 
   <title>Botstrap Dashboard</title>
 </head>
-<body class="debug">
+<body>
 
     <div class="m_app" id="app">
       <header class="d-flex flex-column justify-content-center">
@@ -228,7 +228,7 @@
                   </div>
 
                 </div>
-                <div class="col-12 col-lg-4 py-3">
+                <div class="col-12 col-lg-4">
 
                   <div class="card m_todo mb-3">
                     <div class="card-header">
@@ -241,6 +241,21 @@
                     </ul>
                   </div>
 
+                  <div class="card m_stats">
+                    <img class="img-fluid" src="./img/stats.jpeg" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Utenti attivi</h5>
+                      <p class="card-text">Lista degli utenti attivi nell'ultimo mese</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item p-3">Gennaio: 1200</li>
+                      <li class="list-group-item p-3">Febbraio: 800</li>
+                      <li class="list-group-item p-3">Marzo: 1500</li>
+                      <li class="list-group-item p-3 text-primary"><a href="#">Visualizza reposrt approfondito</a></li>
+                    </ul>
+
+                  </div>
+
 
 
                 </div>
@@ -249,14 +264,62 @@
           </section>
         </main>
 
-        <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas offcanvas-end m_off_registration" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
 
-            <p>Try scrolling the rest of the page to see this option in action.</p>
+            <div class="row">
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                  <input type="name" class="form-control" id="exampleFormControlInput1">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput2" class="form-label">Cognome</label>
+                  <input type="name" class="form-control" id="exampleFormControlInput2">
+                </div>
+              </div>
+            
+            
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput3" class="form-label">Email</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="email" class="form-control">
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleFormControlInput4">
+                </div>
+              </div>
+            
+            
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput3" class="form-label">Indirizzo Email</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="email" class="form-control">
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleFormControlInput4">
+                </div>
+              </div>
+              
+            </div>
 
           </div>
         </div>

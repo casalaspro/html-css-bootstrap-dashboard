@@ -19,7 +19,7 @@
   padding: 0;
 }
 
-#app a{
+.m_app a{
   color: currentColor;
   text-decoration: none;
 }
@@ -28,16 +28,6 @@
   width: 100%;
   height: calc(100% - var(--navbar-height));
 }
-
-.debug .m_navbar, .debug aside, .debug .m_main{
-  border: 1px solid black;
-}
-
-.debug aside{
-  height: 100%;
-}
-
-
 
 /* LAYOUT */
 
@@ -155,6 +145,30 @@ input#searchbar{
   overflow: auto;
 }
 
+/* card stats */
+
+.m_stats li > a{
+  text-decoration: underline;
+}
+
+/* offcanvas */
+
+#offcanvasScrolling{
+  width: 100%;
+}
+
+/* media queries */
+
+@media screen and (min-width: 768px) {
+  .new-student{
+    height: 140px
+  }
+
+  .main_cards{
+    height: calc(100% - 140px);
+  }
+}
+
 @media screen and (min-width: 992px) {
   .m_app_body aside{
     min-width: 150px;
@@ -167,14 +181,9 @@ input#searchbar{
   .new-student{
     height: 300px
   }
-}
 
-@media screen and (min-width: 768px) {
-  .new-student{
-    height: 140px
-  }
-
-  .main_cards{
-    height: calc(100% - 140px);
+  #offcanvasScrolling{
+    width: 40%;
   }
 }
+

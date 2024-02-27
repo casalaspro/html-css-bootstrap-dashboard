@@ -137,6 +137,16 @@ input#searchbar{
   background-color: var(--pill_new-student_color);
 }
 
+/* main_cards */
+
+.main_cards table .m_code_icon{
+  width: 10px;
+  aspect-ratio: 1/1;
+  line-height: 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+
 @media screen and (min-width: 992px) {
   .m_app_body aside{
     min-width: 150px;

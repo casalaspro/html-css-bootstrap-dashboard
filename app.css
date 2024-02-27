@@ -42,7 +42,7 @@
 /* LAYOUT */
 
 .m_app header{
-  height: 70px;
+  height: var(--navbar-height);
 }
 
 .m_navbar{
@@ -131,7 +131,10 @@ input#searchbar{
 
 .new-student{
   background-color: var(--new-student_color);
+  height: 300px
 }
+
+
 
 .new-student .m_bg-pill{
   background-color: var(--pill_new-student_color);
@@ -148,6 +151,7 @@ input#searchbar{
 }
 
 .main_cards{
+  height: calc(100% - 300px);
   overflow: auto;
 }
 
@@ -158,5 +162,19 @@ input#searchbar{
 
   .m_app_body aside ul li span{
     display: inline-block;
+  }
+
+  .new-student{
+    height: 300px
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .new-student{
+    height: 140px
+  }
+
+  .main_cards{
+    height: calc(100% - 140px);
   }
 }

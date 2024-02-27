@@ -45,10 +45,16 @@
         </aside>
 
         <main class="m_main flex-grow-1">
-          <section class="new-student text-white py-4">
+          <section class="new-student text-white py-4 px-3">
             <div class="container-fluid">
               <div class="row">
-                <div class="col col-lg-6">
+
+                <div class="py-3 col-12 col-md-4 col-lg-2 order-md-5">
+                  <p class="d-inline-block">Nuovo Studente</p>
+                   <button type="button" class="btn btn-outline-light ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-plus"></i></button>
+                 </div>
+
+                <div class="py-3 col-12 col-md-4 col-lg-6">
 
                 <h1 class="d-inline-block">Boolean</h1>
                 <a href="#" class="badge rounded-pill m_bg-pill">Piano blaze</a>
@@ -56,20 +62,17 @@
                 <ul class="m_app_address d-flex gap-1">
                   <li><a href="#" class="badge rounded-pill m_bg-pill">3 app</a></li>
                   <li><a href="#"><i class="fa-solid fa-angles-right"></i></a></li>
-                  <li><a href="#" class="badge rounded-pill m_bg-pill">Boolean mobile app</a></li>
-                  <li><a href="#" class="badge rounded-pill m_bg-pill">Boolean web app</a></li>
-                  <li><a href="#" class="badge rounded-pill m_bg-pill">Boolean blog app</a></li>
+                  <li><a href="#" class="badge rounded-pill m_bg-pill d-none d-lg-inline-block">Boolean mobile app</a></li>
+                  <li><a href="#" class="badge rounded-pill m_bg-pill d-none d-lg-inline-block">Boolean web app</a></li>
+                  <li><a href="#" class="badge rounded-pill m_bg-pill d-none d-lg-inline-block">Boolean blog app</a></li>
                 </ul>
 
                 </div>
-                <div class="col col-lg-4">
+                <div class="py-3 col-12 col-md-4">
                 <p>Studenti online negli ultimi 30 minuti</p>
                 <h4 class="display-6">125</h4>
                 </div>
-                <div class="col col-lg-2">
-                <p class="d-inline-block">Nuovo Studente</p>
-                <button type="button" class="btn btn-outline-light ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-plus"></i></button>
-                </div>
+                
               </div>
             </div>
           </section>
@@ -83,7 +86,7 @@
           <div class="offcanvas-body">
 
             <p>Try scrolling the rest of the page to see this option in action.</p>
-            
+
           </div>
         </div>
         

@@ -147,6 +147,10 @@ input#searchbar{
   border-radius: 50%;
 }
 
+.main_cards{
+  overflow: auto;
+}
+
 @media screen and (min-width: 992px) {
   .m_app_body aside{
     min-width: 150px;

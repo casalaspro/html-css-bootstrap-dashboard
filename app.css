@@ -33,6 +33,44 @@
   height: 70px;
 }
 
-aside{
-  min-width: 150px;
+.m_app_body a{
+  color: currentColor;
+  text-decoration: none;
+}
+
+.m_app_body aside{
+  min-width: 70px;
+  background-color: #041E34;
+  background-image: url(./img/sidebar-bg.png);
+  background-repeat: no-repeat;
+}
+
+.m_app_body aside ul{
+  display: contents;
+  list-style: none;
+}
+
+.m_app_body aside ul span{
+  display: contents;
+  list-style: none;
+  margin-left: 1rem;
+  display: none;
+}
+
+.m_app_body aside ul i{
+  width: 20px;
+}
+
+.m_app_body nav{
+  display: contents;
+}
+
+@media screen and (min-width: 992px) {
+  .m_app_body aside{
+    min-width: 150px;
+  }
+
+  .m_app_body aside ul li span{
+    display: inline-block;
+  }
 }

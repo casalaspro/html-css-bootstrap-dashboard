@@ -4,17 +4,14 @@
 }
 
 
-.m_container{
-  height: 100vh;
-}
+
 
 #app{
-  width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #F8F9FA;
 }
 
-#app :is(ul, li, menu){
+.m_app :is(ul, li, menu){
   list-style: none;
   margin: 0;
   padding: 0;
@@ -42,8 +39,11 @@
 
 /* LAYOUT */
 
-.m_navbar{
+.m_app header{
   height: 70px;
+}
+
+.m_navbar{
   background-color: white;
 }
 
@@ -73,8 +73,16 @@
   display: none;
 }
 
+.m_app_body aside ul.panels > li{
+  padding: 5px 10px;
+}
+
 .m_app_body aside ul i{
   width: 20px;
+}
+
+.m_app_body aside ul li:hover{
+  background-color: rgba(255, 255, 255, 0.537);
 }
 
 .m_app_body nav{
@@ -89,6 +97,10 @@
 
 .m-searchbar{
   position: relative;
+}
+
+.m_navbar{
+  background-color: white;
 }
 
 input#searchbar{
